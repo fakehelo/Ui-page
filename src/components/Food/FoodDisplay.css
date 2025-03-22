@@ -1,0 +1,15 @@
+.Topdish{
+    margin-left:101px;
+    font-family: "Trirong", serif;
+    font-size:30px;
+}
+.food-display-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(184px,1fr));
+    margin-top:20px;
+    gap:95px;
+    row-gap:10px;
+    margin-left:100px;
+    margin-right:110px;
+
+}

@@ -1,0 +1,47 @@
+.menu{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.menu h2{
+    font-family:Sans-serif;
+    font-size:35px;
+}
+.menu{
+    margin-left:115px;
+    margin-right:135px;
+}
+.menu p{
+    font-size:30px;
+    max-width:80%;
+}
+.menu_list{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    gap:30px;
+    overflow-x:hidden;
+}
+
+.explore_list img{
+    width:7.5vw;
+    min-width:80px;
+    cursor:pointer;
+    border-radius:50%;
+    transition:0.2s
+}
+.menu hr{
+    margin:10px;
+
+}
+.explore_list .active{
+    border:40px solid yellow; 
+    background-color:orange;
+    padding:2px;
+}
+
+.explore_list img:hover{
+    transform:scale(1.2);
+
+}

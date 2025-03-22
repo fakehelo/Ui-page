@@ -1,0 +1,21 @@
+.download{
+
+    padding:100px;
+}
+
+.app{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.app-image{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    cursor:pointer;
+}
+.app-image :hover{
+    transition:.2s;
+    transform:scale(1.2)
+}
